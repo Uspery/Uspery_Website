@@ -1,0 +1,169 @@
+.title-page {
+    color: var(--white);
+    font: 500 3rem Roboto, sans-serif;
+    text-align:center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-projects, .container-services {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: #212121;
+    width: 20%;
+    padding: 3rem 12rem 0rem 12rem;
+    margin: 1rem;
+    border-radius: 10px;
+    transition: 0.4s;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box:hover {
+    transform: translateY(-3%);
+    box-shadow: rgb(32, 32, 32) 0px 5px, rgba(17, 17, 17, 0.3) 0px 10px, rgba(17, 17, 17, 0.2) 0px 15px, rgba(12, 12, 12, 0.1) 0px 20px, rgba(0, 0, 0, 0.068) 0px 25px;
+    
+}
+
+.box > h3 {
+    color: var(--white);
+    text-align: center;
+    font: 400 1.8rem Roboto, sans-serif;
+    text-transform: uppercase
+}
+
+.box > h4 {
+    color: var(--white);
+    text-align: center;
+    font: 400 1rem Roboto, sans-serif;
+    width: 20vw;
+}
+
+.box > a {
+    width: 23.5vw;
+    padding: 1rem;
+    margin-top: 2.5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: var(--white);
+    font: 400 1rem Roboto, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container-projects > .box {
+    border: solid 2px #6562FF;
+}
+
+.container-projects > .box > a{
+    background-color: #6562FF;
+}
+
+.container-services > .box {
+    border: solid 2px #1D84FE;
+}
+
+
+.container-services > .box > a{
+    background-color: #1D84FE;
+}    
+
+
+/* MOTO G4, IPHONES E ETC...*/
+@media (max-width: 800px) {
+    .title-page {
+        font-size: 2rem;
+    }
+    .container-box {
+        margin-bottom: 20rem;
+        padding: 0rem;
+    }
+    .container-projects, .container-services {
+        flex-direction: column;
+        align-items: center;
+        padding: 0rem;
+    }
+    .box {
+        width: 20%;
+        padding: 1rem 10rem 0rem 10rem;
+    }
+    
+    .box > h3 {
+        font-size: 1.3rem;
+    }
+    .box > h4 {
+        font-size: 0.92rem;
+        width: 40vw;
+    }
+    .box > a {
+        width: 50vw;
+        border-radius: 10px;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* GALAXY FOLD */
+@media (width: 280px) {
+    .box {
+        width: 20%;
+        padding: 1rem 8rem 0rem 8rem;
+    }
+}
+
+
+/* IPAD */
+@media (width: 768px) {
+    .title-page {
+        margin-top: 0rem;
+    }
+    .container-box {
+        margin-bottom: 32rem;
+        padding: 0rem;
+    }
+    .box > a {
+        width: 20vw;
+    }
+}
+
+/* IPAD PRO*/
+@media (width: 1024px) {
+    .box > a {
+        border-radius: 10px;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* NEST HUB MAX*/
+@media (width: 1280px) {
+    .title-page{
+        margin-right:  20rem;
+    }
+    .container-box {
+        margin-bottom: 20rem;
+        margin-right:  20rem;
+        padding: 0rem;
+    }
+    .container-projects, .container-services {
+        flex-direction: column;
+        align-items: center;
+        padding: 0rem;
+    }
+    .box > a {
+        width: 21.3vw;
+    }
+}

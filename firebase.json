@@ -1,0 +1,22 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "appAssociation": "AUTO",
+    "rewrites": [
+      {"source": "/privacidade/*", "destination": "/privacy/index.html" },
+      { "source": "/privacy/*", "destination": "/privacy/index.html" }, 
+      { "source": "/tos", "destination": "/privacy/tos/index.html" },
+      { "source": "/tos/", "destination": "/privacy/tos/index.html" },
+      { "source": "/about/*", "destination": "/index.html" },
+      { "source": "/sobre/*", "destination": "/index.html" }, 
+      { "source": "/short/**", "dynamicLinks": true },
+      { "source": "/url/**", "dynamicLinks": true }
+    ],
+    "cleanUrls": true
+  }
+}
