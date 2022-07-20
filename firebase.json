@@ -8,6 +8,10 @@
     ],
     "appAssociation": "AUTO",
     "rewrites": [
+      {"source": "/mpp/*", "destination": "/makingPlans/index.html" },
+      {"source": "/mpp", "destination": "/makingPlans/index.html" },
+      {"source": "/makingplans", "destination": "/makingPlans/index.html" },
+      {"source": "/makingplans/*", "destination": "/makingPlans/index.html" },
       {"source": "/privacidade/*", "destination": "/privacy/index.html" },
       { "source": "/privacy/*", "destination": "/privacy/index.html" }, 
       { "source": "/tos", "destination": "/privacy/tos/index.html" },
