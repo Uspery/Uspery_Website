@@ -87,7 +87,7 @@
                 <div class="column-text about">
                     <h2 class="title-card">Matheus Souza</h2>
                     <h3 class="text-card-semi" id="desc-matheus-souza"></h3>
-                    <h3 class="text-card-semi" id="more-kaua-vitorio">Know more: <a href="https://www.linkedin.com/in/matheusssleite/" class="spam-card" >Linkedin</a></h3>
+                    <h3 class="text-card-semi" id="more-matheus-souza">Know more: <a href="https://www.linkedin.com/in/matheusssleite/" class="spam-card" >Linkedin</a></h3>
                 </div>
             </div>
         </section>
@@ -109,24 +109,36 @@
                 <div class="column-text about">
                     <h2 class="title-card">Pedro Henrique</h2>
                     <h3 class="text-card-semi" id="desc-pedro-henrique"></h3>
-                    <h3 class="text-card-semi" id="more-yuri-dantas">Know more: <a href="https://www.instagram.com/pedrohmmf03/" target="_blank" class="spam-card" >Instagram</a></h3>
+                    <h3 class="text-card-semi" id="more-pedro-henrique">Know more: <a href="https://www.instagram.com/pedrohmmf03/" target="_blank" class="spam-card" >Instagram</a></h3>
                 </div>
-            </div>
+            </div>   
+        </section>
+
+        <!-- Leonardo Ieva -->
+        <section class="section-cards" id="leonardo-ieva">
+            <div class="card about">
+                <div class="column-text about">
+                    <h2 class="title-card">Leonardo Ieva</h2>
+                    <h3 class="text-card-semi" id="desc-leonardo-ieva"></h3>
+                    <h3 class="text-card-semi" id="more-leonardo-ieva">Know more: <a href="https://www.linkedin.com/in/leonardo-araujo-ieva-955817199/" target="_blank" class="spam-card" >Linkedin</a></h3>
+                </div>
+            </div>   
         </section>
 
     </section>
 
     <script>
-    function calculate_age(dob) { 
+    function Calculate_age(dob) { 
         var diff_ms = Date.now() - dob.getTime();
         var age_dt = new Date(diff_ms); 
         return Math.abs(age_dt.getUTCFullYear() - 1970);
     }
 
-    var kaua_age = calculate_age(new Date(2004, 04, 31));
-    var matheus_age = calculate_age(new Date(2003, 08, 29));
-    var yuri_age = calculate_age(new Date(2003, 08, 16));
-    var pedro_age = calculate_age(new Date(2003, 08, 16));
+    var kaua_age = Calculate_age(new Date(2004, 04, 31));
+    var matheus_age = Calculate_age(new Date(2003, 08, 29));
+    var yuri_age = Calculate_age(new Date(2003, 08, 16));
+    var pedro_age = Calculate_age(new Date(2003, 08, 16));
+    var leonardo_age = Calculate_age(new Date(2002, 06, 11));
 
     var desc_kaua = document.getElementById("desc-kaua-vitorio");
     desc_kaua.innerHTML = `"Hi!
@@ -144,6 +156,9 @@
     desc_pedro.innerHTML = `"Hi!
                             My name is Pedro Henrique, I'm `+ pedro_age +` years old, I'm CEO and Systems Analyst at Uspery.  I'm graduated in Systems Development from ETEC."`
 
+    var desc_leonardo = document.getElementById("desc-leonardo-ieva");
+    desc_leonardo.innerHTML = `"Hi!
+                            My name is Leonardo Ieva, I'm `+ leonardo_age +` years old, I'm Web Developer Junior at Uspery. I'm styding Science Computer from Impacta."`
     </script>
 </body>
 </html>
