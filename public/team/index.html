@@ -43,12 +43,12 @@
     <!-- Header Import  -->
     <iframe src="../src/header/index.html"></iframe>
 
-    <div class="container-team" id="uspery-team-pic">
+    <!-- <div class="container-team" id="uspery-team-pic">
         <h1 class="title">TEAM</h1>
         <div class="container-cards">
             <img src="../Design/Team/team_image_no_bg.png" class="img-team" alt="">
         </div>
-    </div>
+    </div> -->
 
     <!-- “FROM DISCORD TO USPERY.” -->
     <section class="section-cards" id="from-discord">
@@ -77,6 +77,17 @@
                     <h2 class="title-card">Kauã Vitório</h2>
                     <h3 class="text-card-semi" id="desc-kaua-vitorio"></h3>
                     <h3 class="text-card-semi" id="more-kaua-vitorio">Know more: <a href="https://kauavitorio.com/" class="spam-card" >Website</a></h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Caroline Oliveira -->
+        <section class="section-cards" id="carol-oliveira">
+            <div class="card about">
+                <div class="column-text about">
+                    <h2 class="title-card">Caroline Oliveira</h2>
+                    <h3 class="text-card-semi" id="desc-carol-oliveira"></h3>
+                    <h3 class="text-card-semi" id="more-carol-oliveira">Know more: <a href="https://www.linkedin.com/in/caroline-santos-b20a331b7/" class="spam-card" >Linkedin</a></h3>
                 </div>
             </div>
         </section>
@@ -139,6 +150,7 @@
     var yuri_age = Calculate_age(new Date(2003, 08, 16));
     var pedro_age = Calculate_age(new Date(2003, 08, 16));
     var leonardo_age = Calculate_age(new Date(2002, 06, 11));
+    var carol_age = Calculate_age(new Date(2004, 09, 14));
 
     var desc_kaua = document.getElementById("desc-kaua-vitorio");
     desc_kaua.innerHTML = `"Hi!
@@ -159,6 +171,12 @@
     var desc_leonardo = document.getElementById("desc-leonardo-ieva");
     desc_leonardo.innerHTML = `"Hi!
                             My name is Leonardo Ieva, I'm `+ leonardo_age +` years old, I'm Web Developer Junior at Uspery. I'm styding Science Computer from Impacta."`
-    </script>
+    
+    var desc_carol = document.getElementById("desc-carol-oliveira");
+    desc_carol.innerHTML = `"Hi!
+                             My name is Caroline Oliveira, I'm ` + carol_age + ` years old, I'm Back-end Developer at Uspery. I'm graduand in Systems Development at ETEC and I'm styding Computer Science at Universidade São Judas Tadeu."`
+  
+
+   </script>
 </body>
 </html>
