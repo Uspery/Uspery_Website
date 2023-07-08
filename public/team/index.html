@@ -71,12 +71,12 @@
         </section>
 
         <!-- Kaua Vitorio -->
-        <section class="section-cards" id="kaua-vitorio">
+        <section class="section-cards" id="kaua-lima">
             <div class="card about">
                 <div class="column-text about">
                     <h2 class="title-card">Kauã Vitório</h2>
-                    <h3 class="text-card-semi" id="desc-kaua-vitorio"></h3>
-                    <h3 class="text-card-semi" id="more-kaua-vitorio">Know more: <a href="https://kauavitorio.com/" class="spam-card" >Website</a></h3>
+                    <h3 class="text-card-semi" id="desc-kaualima"></h3>
+                    <h3 class="text-card-semi" id="more-kaua-lima">Know more: <a href="https://kauavitorio.com/" class="spam-card" >Website</a></h3>
                 </div>
             </div>
         </section>
@@ -86,7 +86,7 @@
             <div class="card about">
                 <div class="column-text about">
                     <h2 class="title-card">Caroline Oliveira</h2>
-                    <h3 class="text-card-semi" id="desc-carol-oliveira"></h3>
+                    <h3 class="text-card-semi" id="desc-carolineoliveira"></h3>
                     <h3 class="text-card-semi" id="more-carol-oliveira">Know more: <a href="https://www.linkedin.com/in/caroline-santos-b20a331b7/" class="spam-card" >Linkedin</a></h3>
                 </div>
             </div>
@@ -97,7 +97,7 @@
             <div class="card about">
                 <div class="column-text about">
                     <h2 class="title-card">Matheus Souza</h2>
-                    <h3 class="text-card-semi" id="desc-matheus-souza"></h3>
+                    <h3 class="text-card-semi" id="desc-matheussouza"></h3>
                     <h3 class="text-card-semi" id="more-matheus-souza">Know more: <a href="https://www.linkedin.com/in/matheusssleite/" class="spam-card" >Linkedin</a></h3>
                 </div>
             </div>
@@ -108,7 +108,7 @@
             <div class="card about">
                 <div class="column-text about">
                     <h2 class="title-card">Yuri Dantas</h2>
-                    <h3 class="text-card-semi" id="desc-yuri-dantas"></h3>
+                    <h3 class="text-card-semi" id="desc-yuridantas"></h3>
                     <h3 class="text-card-semi" id="more-yuri-dantas">Know more: <a href="https://www.instagram.com/yuri.dann/" target="_blank" class="spam-card" >Instagram</a></h3>
                 </div>
             </div>
@@ -119,7 +119,7 @@
             <div class="card about">
                 <div class="column-text about">
                     <h2 class="title-card">Pedro Henrique</h2>
-                    <h3 class="text-card-semi" id="desc-pedro-henrique"></h3>
+                    <h3 class="text-card-semi" id="desc-pedrohenrique"></h3>
                     <h3 class="text-card-semi" id="more-pedro-henrique">Know more: <a href="https://www.instagram.com/pedrohmmf03/" target="_blank" class="spam-card" >Instagram</a></h3>
                 </div>
             </div>   
@@ -130,7 +130,7 @@
             <div class="card about">
                 <div class="column-text about">
                     <h2 class="title-card">Leonardo Ieva</h2>
-                    <h3 class="text-card-semi" id="desc-leonardo-ieva"></h3>
+                    <h3 class="text-card-semi" id="desc-leonardoieva"></h3>
                     <h3 class="text-card-semi" id="more-leonardo-ieva">Know more: <a href="https://www.linkedin.com/in/leonardo-araujo-ieva-955817199/" target="_blank" class="spam-card" >Linkedin</a></h3>
                 </div>
             </div>   
@@ -138,45 +138,7 @@
 
     </section>
 
-    <script>
-    function Calculate_age(dob) { 
-        var diff_ms = Date.now() - dob.getTime();
-        var age_dt = new Date(diff_ms); 
-        return Math.abs(age_dt.getUTCFullYear() - 1970);
-    }
-
-    var kaua_age = Calculate_age(new Date(2004, 04, 31));
-    var matheus_age = Calculate_age(new Date(2003, 08, 29));
-    var yuri_age = Calculate_age(new Date(2003, 08, 16));
-    var pedro_age = Calculate_age(new Date(2003, 08, 16));
-    var leonardo_age = Calculate_age(new Date(2002, 06, 11));
-    var carol_age = Calculate_age(new Date(2004, 09, 14));
-
-    var desc_kaua = document.getElementById("desc-kaua-vitorio");
-    desc_kaua.innerHTML = `"Hi!
-                            My name is Kauã Vitório da Silva Lima, I'm `+ kaua_age +` years old and I'm CEO, founder and mobile | back-end developer at Uspery, I'm graduated in Systems Development from ETEC. My skills are Java, JavaScript, Node JS, HTML5 and CSS3"`
-
-    var desc_matheus = document.getElementById("desc-matheus-souza");
-    desc_matheus.innerHTML = `"Hi!
-                            My name is Matheus Souza, I'm `+ matheus_age +` years old and I'm CEO and front-end developer at Uspery, I'm graduated in Systems Development from ETEC. My skills are HTML5, CSS3, JavaScript and UI Design"`
-
-    var desc_yuri = document.getElementById("desc-yuri-dantas");
-    desc_yuri.innerHTML = `"Hi!
-                            My name is Yuri Dantas, I'm `+ yuri_age +` years old, I'm from Goiânia-GO, I'm CEO and Copydesk at Uspery. I'm  graduated in basic information technology. I have a passion for writing, and in 2021 I started my first written project."`
-
-    var desc_pedro = document.getElementById("desc-pedro-henrique");
-    desc_pedro.innerHTML = `"Hi!
-                            My name is Pedro Henrique, I'm `+ pedro_age +` years old, I'm CEO and Systems Analyst at Uspery.  I'm graduated in Systems Development from ETEC."`
-
-    var desc_leonardo = document.getElementById("desc-leonardo-ieva");
-    desc_leonardo.innerHTML = `"Hi!
-                            My name is Leonardo Ieva, I'm `+ leonardo_age +` years old, I'm Web Developer Junior at Uspery. I'm styding Science Computer from Impacta."`
-    
-    var desc_carol = document.getElementById("desc-carol-oliveira");
-    desc_carol.innerHTML = `"Hi!
-                             My name is Caroline Oliveira, I'm ` + carol_age + ` years old, I'm Back-end Developer at Uspery. I'm graduand in Systems Development at ETEC and I'm styding Computer Science at Universidade São Judas Tadeu."`
-  
-
-   </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="src/script/index.js"></script>
 </body>
 </html>
