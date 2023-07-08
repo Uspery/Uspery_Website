@@ -2,37 +2,49 @@
   {
     "name": "Kauã Vitório da Silva Lima",
     "sigla": "kaualima",
-    "description": "Hi! My name is Kauã Vitório da Silva Lima, I'm {age} years old and I'm CEO, founder and mobile | back-end developer at Uspery, I'm graduated in Systems Development from ETEC. My skills are Java, JavaScript, Node JS, HTML5 and CSS3",
-    "dateOfBirth": "2004-05-31"
-  },
-  {
-    "name": "Matheus Souza",
-    "sigla": "matheussouza",
-    "description": "Hi! My name is Matheus Souza, I'm {age} years old and I'm CEO and front-end developer at Uspery, I'm graduated in Systems Development from ETEC. My skills are HTML5, CSS3, JavaScript and UI Design",
-    "dateOfBirth": "2003-09-29"
-  },
-  {
-    "name": "Yuri Dantas",
-    "sigla": "yuridantas",
-    "description": "Hi! My name is Yuri Dantas, I'm {age} years old, I'm from Goiânia-GO, I'm CEO and Copydesk at Uspery. I'm  graduated in basic information technology. I have a passion for writing, and in 2021 I started my first written project.",
-    "dateOfBirth": "2003-09-16"
-  },
-  {
-    "name": "Pedro Henrique",
-    "sigla": "pedrohenrique",
-    "description": "Hi! My name is Pedro Henrique, I'm {age} years old, I'm CEO and Systems Analyst at Uspery.  I'm graduated in Systems Development from ETEC.",
-    "dateOfBirth": "2003-09-16"
-  },
-  {
-    "name": "Leonardo Ieva",
-    "sigla": "leonardoieva",
-    "description": "Hi! My name is Leonardo Ieva, I'm {age} years old, I'm Web Developer Junior at Uspery. I'm styding Science Computer from Impacta.",
-    "dateOfBirth": "2002-07-11"
+    "description": "Hey! My name is Kauã Vitório da Silva Lima, I am {age} years old and I am CEO, founder and mobile | back-end developer at Uspery, I graduated in Systems Development at ETEC.<br/>I am currently majoring in Computer Science.<br/><br/>My skills are C#, Java, JavaScript, Node JS, HTML5 and CSS3",
+    "dateOfBirth": "2004-05-31",
+    "url": "https://kauavitorio.com/",
+    "imageUrl": "src\\asset\\images\\KauaLima.jpg"
   },
   {
     "name": "Caroline Oliveira",
     "sigla": "carolineoliveira",
     "description": "Hi! My name is Caroline Oliveira, I'm {age} years old, I'm Back-end Developer at Uspery. I'm graduand in Systems Development at ETEC and I'm styding Computer Science at Universidade São Judas Tadeu.",
-    "dateOfBirth": "2004-10-14"
+    "dateOfBirth": "2004-10-14",
+    "url": "https://www.linkedin.com/in/caroline-santos-b20a331b7/",
+    "imageUrl": "src\\asset\\images\\CarolineOliveira.jpg"
+  },
+  {
+    "name": "Matheus Souza",
+    "sigla": "matheussouza",
+    "description": "Hi! My name is Matheus Souza, I'm {age} years old and I'm CEO and front-end developer at Uspery, I'm graduated in Systems Development from ETEC. My skills are HTML5, CSS3, JavaScript and UI Design",
+    "dateOfBirth": "2003-09-29",
+    "url": "https://www.linkedin.com/in/matheusssleite/",
+    "imageUrl": "src\\asset\\images\\MatheusSouza.jpg"
+  },
+  {
+    "name": "Yuri Dantas",
+    "sigla": "yuridantas",
+    "description": "Hi! My name is Yuri Dantas, I'm {age} years old, I'm from Goiânia-GO, I'm CEO and Copydesk at Uspery. I'm  graduated in basic information technology. I have a passion for writing, and in 2021 I started my first written project.",
+    "dateOfBirth": "2003-09-16",
+    "url": "https://www.instagram.com/yuri.dann/",
+    "imageUrl": "src\\asset\\images\\YuriDantas.jpg"
+  },
+  {
+    "name": "Pedro Henrique",
+    "sigla": "pedrohenrique",
+    "description": "Hi! My name is Pedro Henrique, I'm {age} years old, I'm CEO and Systems Analyst at Uspery.  I'm graduated in Systems Development from ETEC.",
+    "dateOfBirth": "2003-09-16",
+    "url": "https://www.instagram.com/pedrohmmf03/",
+    "imageUrl": ""
+  },
+  {
+    "name": "Leonardo Ieva",
+    "sigla": "leonardoieva",
+    "description": "Hi! My name is Leonardo Ieva, I'm {age} years old, I'm Web Developer Junior at Uspery. I'm styding Science Computer from Impacta.",
+    "dateOfBirth": "2002-07-11",
+    "url": "https://www.linkedin.com/in/leonardo-araujo-ieva-955817199/",
+    "imageUrl": "src\\asset\\images\\LeonardoIeva.jpg"
   }
 ]
