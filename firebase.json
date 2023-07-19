@@ -57,6 +57,13 @@
         "dynamicLinks": true
       }
     ],
-    "cleanUrls": true
+    "cleanUrls": true,
+    "headers": [{
+      "source" : "**",
+      "headers" : [{
+        "key" : "Cache-Control",
+        "value" : "max-age=3600"
+      }]
+    }]
   }
 }
