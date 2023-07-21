@@ -1,4 +1,5 @@
 :root {
+    --pure-black: #000000;
     --black: #333;
     --white: #fff;
     --black-card: #212121;
@@ -9,4 +10,5 @@
     --orange-light: #FF8C55;
     --blue: #1D84FE;
     --purple: #6562FF;
+    --gray-light: #ffffffd8;
 }
