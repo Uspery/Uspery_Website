@@ -30,7 +30,7 @@ ul {
 
 .text-nav {
     color: var(--white);
-    font: 400 1.5rem Roboto, sans-serif;
+    font: 400 1.2rem Roboto, sans-serif;
     text-decoration: none;
     padding: 3rem 3rem 3rem 3rem;
     transition: all 0.4s;
