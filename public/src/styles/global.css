@@ -59,6 +59,30 @@ iframe {
     100%{background-position:left}
 }
 
+.text-animated {
+    background: linear-gradient(
+        to right,
+        var(--orange) 20%,
+        var(--orange-light) 30%,
+        var(--orange-complement) 70%,
+        var(--purple) 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 2s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
 /* ======== RESPONSIVE ======== */
 
 
