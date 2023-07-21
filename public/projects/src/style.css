@@ -1,3 +1,23 @@
 body{
     background-color: black;
 }
+
+.project-logo {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem; 
+    border-radius: 10px; 
+    overflow: hidden;
+    background-color: VAR(--gray-light);
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.project-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
