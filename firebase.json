@@ -9,20 +9,16 @@
     "appAssociation": "AUTO",
     "rewrites": [
       {
-        "source": "/mpp/*",
-        "destination": "/makingPlans/index.html"
+        "source": "/ServiceDeskManager",
+        "destination": "/projects/ServiceDeskManager/index.html"
       },
       {
-        "source": "/mpp",
-        "destination": "/makingPlans/index.html"
+        "source": "/sdm",
+        "destination": "/projects/ServiceDeskManager/index.html"
       },
       {
-        "source": "/makingplans",
-        "destination": "/makingPlans/index.html"
-      },
-      {
-        "source": "/makingplans/*",
-        "destination": "/makingPlans/index.html"
+        "source": "/PalacePetz",
+        "destination": "/projects/PalacePetz/index.html"
       },
       {
         "source": "/privacidade/*",
@@ -62,7 +58,7 @@
       "source" : "**",
       "headers" : [{
         "key" : "Cache-Control",
-        "value" : "max-age=3600"
+        "value" : "max-age=86400"
       }]
     }]
   }
