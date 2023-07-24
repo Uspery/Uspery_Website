@@ -1,0 +1,10 @@
+.title-page.as-is{
+    font-size: 2rem;
+}
+
+.title-page {
+    width: 100%;
+    font: 500 3rem Roboto, sans-serif;
+    color: var(--white);
+    text-align:center;
+}
