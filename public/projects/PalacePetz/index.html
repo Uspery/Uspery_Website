@@ -3,9 +3,336 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PalacePetz | Uspery</title>
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../../src/assets/icons/logo-icon.png" type="image/x-icon">
+    
+    <!-- Color css -->
+    <link rel="stylesheet" href="../../src/styles/colors.css" />
+
+    <!-- Scroll css -->
+    <link rel="stylesheet" href="../../src/styles/index.css" />
+
+    <!-- Global css -->
+    <link rel="stylesheet" href="../../src/styles/global.css" />
+
+    <!-- Card css -->
+    <link rel="stylesheet" href="../../src/styles/cards.css" />
+
+    <!-- Desc Card css -->
+    <link rel="stylesheet" href="../../src/styles/small-desc-card.css" />
+
+    <!-- Desc Img Card css -->
+    <link rel="stylesheet" href="../../src/styles/card-desc-img.css" />
+
+    <!-- Page css -->
+    <link rel="stylesheet" href="../../projects/PalacePetz/src/style/index.css" />
+
 </head>
 <body>
-    
+    <iframe src="../../src/header/index.html"></iframe>
+
+    <div id="imageModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); z-index: 999;">
+        <img id="modalImage" src="" alt="Imagem" style="display: block; max-width: 80%; max-height: 80%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+    </div>
+
+    <section>
+        <h1 class="title-page" style="margin-bottom: 1.5rem; margin-top: 2rem;">Palace Petz</h1>
+
+        <!-- Short Information -->
+        <section class="section-cards-small">
+
+            <!-- Idea -->
+            <div class="card-small">
+                <p class="card-small-title {
+                    color: #26262">Idea</p>
+                <p class="small-desc">
+                    Palace's project was designed with the aim of serving customers, showing the products and services we offer; giving the user the opportunity to feel comfortable browsing the website and mobile application.
+                </p>
+            </div>
+
+        </section>
+
+        <!--#region Preview Web & Mobile -->
+        <section>
+            <h1 class="title-page" style="margin-bottom: 1.5rem; margin-top: 2rem;">Preview - Web</h1>
+
+            <div class="section-cards-small">
+
+                <!-- Login -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Login</p>
+                        <p class="title">Login via E-Mail and Password.</p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/CommonView/Login.jpg" alt="Login - PalacePetz" />
+                </div>
+
+                <!-- SignUp -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">SignUp</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/CommonView/SignUp.jpg" alt="SignUp - PalacePetz" />
+                </div>
+
+                <!-- Home -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Home</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/ClientView/Home.jpg" alt="Home - PalacePetz" />
+                </div>
+
+                <!-- Products -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Products</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/ClientView/Products.jpg" alt="Products - PalacePetz" />
+                </div>
+
+                <!-- Services -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Services</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/ClientView/Services.jpg" alt="Services - PalacePetz" />
+                </div>
+
+                <!-- Shedule Service -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Shedule Service</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/ClientView/SheduleService.jpg" alt="Shedule Service - PalacePetz" />
+                </div>
+
+                <!-- Product Description -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Product Description</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/ClientView/ProductDescription.jpg" alt="Product Description - PalacePetz" />
+                </div>
+
+                <!-- My Cart -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">My Cart</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/ClientView/MyCart.jpg" alt="My Cart - PalacePetz" />
+                </div>
+
+                <!-- Register Card -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Register Card</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/ClientView/RegisterCard.jpg" alt="Register Card - PalacePetz" />
+                </div>
+
+                <!-- My Cards -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">My Cards</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/ClientView/MyCards.jpg" alt="My Cards - PalacePetz" />
+                </div>
+
+                <!-- Finish Purchase -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Finish Purchase</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/ClientView/FinishPurchase.jpg" alt="Finish Purchase - PalacePetz" />
+                </div>
+
+                <!-- My Orders -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">My Orders</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/ClientView/MyOrders.jpg" alt="New My Orders - PalacePetz" />
+                </div>
+
+                <!-- Help -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Help</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/ClientView/Help.jpg" alt="New Help - PalacePetz" />
+                </div>
+
+            </div>
+
+            <h1 class="title-page" style="margin-bottom: 1.5rem; margin-top: 2rem;">Employee View in the Web Application</h1>
+
+            <div class="section-cards-small">
+
+                <!-- Home -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Home</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/EmployerView/Home.jpg" alt="Home - PalacePetz" />
+                </div>
+
+                <!-- My Service -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">My Service</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/EmployerView/MyService.jpg" alt="MyService - PalacePetz" />
+                </div>
+
+                <!-- My Service Details -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">My Service Details</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/EmployerView/MyServiceDetails.jpg" alt="My Service Details - PalacePetz" />
+                </div>
+
+                <!-- Order Control -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Order Control</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/EmployerView/OrderControl.jpg" alt="Order Control - PalacePetz" />
+                </div>
+
+                <!-- Register Product -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Register Product</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/EmployerView/RegisterProduct.jpg" alt="Register Product - PalacePetz" />
+                </div>
+
+                <!-- Product History -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Product History</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/EmployerView/ProductHistory.jpg" alt="Product History - PalacePetz" />
+                </div>
+
+                <!-- Sell Reports -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Sell Reports</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/EmployerView/SellReports.jpg" alt="Sell Reports - PalacePetz" />
+                </div>
+
+                <!-- Sponsors -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Sponsors</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/WebApp/EmployerView/PalacePetzSponsor.jpg" alt="PalacePetz Sponsor - PalacePetz" />
+                </div>
+
+            </div>
+        </section>
+        <!--#endregion Preview Web & Mobile -->
+
+        <!--#region Project Analysis-->
+        <section>
+            <h1 class="title-page" style="margin-bottom: 1.5rem; margin-top: 2rem;">Project Analysis</h1>
+
+            <div class="section-cards-small">
+
+                <!-- Entity and Relationship Diagram -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Entity and Relationship Diagram</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/Analysis/EntityRelationshipDiagram.png" alt="Entity and Relationship Diagram - PalacePetz" />
+                </div>
+
+                <!-- Use Case Diagram -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Use Case Diagram</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/Analysis/UseCaseDiagram.jpg" alt="Use Case Diagram - PalacePetz" />
+                </div>
+
+                <!-- Class Diagram -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Class Diagram</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/Analysis/ClassDiagram.jpg" alt="Class Diagram - PalacePetz" />
+                </div>
+
+                <!-- Sequence Diagram SignUp -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Sequence Diagram SignUp</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/Analysis/Sequence Diagram/SignUp.jpg" alt="Sequence Diagram SignUp - PalacePetz" />
+                </div>
+
+                <!-- Sequence Diagram Login -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Sequence Diagram Login</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/Analysis/Sequence Diagram/Login.jpg" alt="Sequence Diagram Login - PalacePetz" />
+                </div>
+
+                <!-- Sequence Diagram Product Register -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Sequence Diagram Product Register</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/Analysis/Sequence Diagram/ProductRegister.jpg" alt="Sequence Diagram ProductRegister - PalacePetz" />
+                </div>
+
+                <!-- Sequence Diagram Aplication Request -->
+                <div class="article-card">
+                    <div class="content">
+                        <p class="date">Sequence Diagram Aplication Request</p>
+                        <p class="title"></p>
+                    </div>
+                    <img src="../../projects/PalacePetz/src/asset/img/Analysis/Sequence Diagram/AplicationRequest.jpg" alt="Sequence Diagram AplicationRequest - PalacePetz" />
+                </div>
+
+            </div>
+        </section>
+        <!--#endregion Project Analysis -->
+    </section>
+
+    <script src="../../src/scripts/smallCardImgClick.js"></script>
 </body>
 </html>
