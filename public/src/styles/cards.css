@@ -44,6 +44,11 @@
     color: var(--white);
 }
 
+.position-card {
+    font: 300 1.5rem Roboto, sans-serif;
+    color: var(--white);
+}
+
 .spam-card{
     color: var(--orange-light);
     text-decoration: none;

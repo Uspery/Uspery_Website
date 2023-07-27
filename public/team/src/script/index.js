@@ -77,6 +77,16 @@ onload = (event) => {
                 // Adiciona o título ao contêiner do título
                 titleContainer.appendChild(title);
 
+                var positionContainer = document.createElement("div");
+                positionContainer.classList.add("container-title");
+
+                var position = document.createElement("h2");
+                position.classList.add("position-card");
+                var userPosition = document.createTextNode(data["position"]);
+                position.appendChild(userPosition);
+
+                positionContainer.appendChild(position);
+
                 if(data["imageUrl"]) // Adiciona a imagem ao contêiner do título caso tenha imagem
                     titleContainer.appendChild(image); 
               
@@ -97,8 +107,12 @@ onload = (event) => {
               
                 // Adicionar os elementos à estrutura HTML
                 columnText.appendChild(titleContainer); // Adiciona o contêiner do título à coluna de texto
+                columnText.appendChild(positionContainer);
                 columnText.appendChild(description);
-                columnText.appendChild(link);
+
+                if(data["url"])
+                    columnText.appendChild(link);
+
                 card.appendChild(columnText);
                 section.appendChild(card);
               

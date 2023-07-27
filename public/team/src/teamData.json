@@ -1,6 +1,7 @@
 [
   {
     "name": "Kauã Vitório da Silva Lima",
+    "position": "CEO GLOBAL",
     "sigla": "kaualima",
     "description": "Hey! My name is Kauã Vitório da Silva Lima, I am {age} years old and I am CEO, founder and mobile | back-end developer at Uspery, I graduated in Systems Development at ETEC.<br/>I am currently majoring in Computer Science.<br/><br/>My skills are C#, Java, JavaScript, Node JS, HTML5 and CSS3",
     "dateOfBirth": "2004-05-31",
@@ -8,15 +9,17 @@
     "imageUrl": "..\\team\\src\\asset\\images\\KauaLima.jpg"
   },
   {
-    "name": "Caroline Oliveira",
-    "sigla": "carolineoliveira",
-    "description": "Hi! My name is Caroline Oliveira, I'm {age} years old, I'm Back-end Developer at Uspery. I'm graduand in Systems Development at ETEC and I'm styding Computer Science at Universidade São Judas Tadeu.",
-    "dateOfBirth": "2004-10-14",
-    "url": "https://www.linkedin.com/in/caroline-santos-b20a331b7/",
-    "imageUrl": "..\\team\\src\\asset\\images\\CarolineOliveira.jpg"
+    "name": "Yuri Dantas Godinho",
+    "position": "CEO | CMO | CXO",
+    "sigla": "yuridantas",
+    "description": "Hello! My name is Yuri Dantas, I'm {age} years old, I live in Goiânia-GO and I'm CEO and Graphic Designer at Uspery. I have a background in graphic design and video editing. I am currently studying Publicity and Propaganda.",
+    "dateOfBirth": "2003-08-16",
+    "url": "https://www.linkedin.com/in/yuri-dantas//",
+    "imageUrl": "..\\team\\src\\asset\\images\\YuriDantas.jpg"
   },
   {
-    "name": "Matheus Souza",
+    "name": "Matheus Souza Santos Leite",
+    "position": "CEO | Diretor de Desenvolvimento",
     "sigla": "matheussouza",
     "description": "Hi! My name is Matheus Souza, I'm {age} years old and I'm CEO and front-end developer at Uspery, I'm graduated in Systems Development from ETEC. My skills are HTML5, CSS3, JavaScript and UI Design",
     "dateOfBirth": "2003-09-29",
@@ -24,27 +27,57 @@
     "imageUrl": "..\\team\\src\\asset\\images\\MatheusSouza.jpg"
   },
   {
-    "name": "Yuri Dantas",
-    "sigla": "yuridantas",
-    "description": "Hello! My name is Yuri Dantas, I'm {age} years old, I live in Goiânia-GO and I'm CEO and Graphic Designer at Uspery. I have a background in graphic design and video editing. I am currently studying Publicity and Propaganda.",
-    "dateOfBirth": "2003-08-16",
-    "url": "https://www.instagram.com/yuri.dann/",
-    "imageUrl": "..\\team\\src\\asset\\images\\YuriDantas.jpg"
+    "name": "Felipe Paixão Macedo",
+    "position": "CIO",
+    "sigla": "felipepaixao",
+    "description": "",
+    "dateOfBirth": "",
+    "url": "https://www.linkedin.com/in/felipe-paix%C3%A3o-macedo-0246a921a/",
+    "imageUrl": "..\\team\\src\\asset\\images\\FelipePaixao.jpg"
   },
   {
-    "name": "Pedro Henrique",
-    "sigla": "pedrohenrique",
-    "description": "Hi! My name is Pedro Henrique, I'm {age} years old, I'm CEO and Systems Analyst at Uspery.  I'm graduated in Systems Development from ETEC.",
-    "dateOfBirth": "2003-09-16",
-    "url": "https://www.instagram.com/pedrohmmf03/",
-    "imageUrl": ""
+    "name": "Caroline Oliveira Dos Santos",
+    "position": "CTO",
+    "sigla": "carolineoliveira",
+    "description": "Hi! My name is Caroline Oliveira, I'm {age} years old, I'm Back-end Developer at Uspery. I'm graduand in Systems Development at ETEC and I'm styding Computer Science at Universidade São Judas Tadeu.",
+    "dateOfBirth": "2004-10-14",
+    "url": "https://www.linkedin.com/in/caroline-santos-b20a331b7/",
+    "imageUrl": "..\\team\\src\\asset\\images\\CarolineOliveira.jpg"
   },
   {
-    "name": "Leonardo Ieva",
+    "name": "Leonardo Araujo Ieva",
+    "position": "Analista de Sistemas",
     "sigla": "leonardoieva",
     "description": "Hi! My name is Leonardo Ieva, I'm {age} years old, I'm Web Developer Junior at Uspery. I'm styding Science Computer from Impacta.",
     "dateOfBirth": "2002-07-11",
     "url": "https://www.linkedin.com/in/leonardo-araujo-ieva-955817199/",
     "imageUrl": "..\\team\\src\\asset\\images\\LeonardoIeva.jpg"
+  },
+  {
+    "name": "Lucas Zanon Borelli",
+    "position": "Analista de Sistemas",
+    "sigla": "lucaszanon",
+    "description": "",
+    "dateOfBirth": "",
+    "url": "",
+    "imageUrl": "..\\team\\src\\asset\\images\\defaultUser.png"
+  },
+  {
+    "name": "Lucas Ferreira dos Santos Silva",
+    "position": "Analista de Sistemas",
+    "sigla": "lucasferreira",
+    "description": "",
+    "dateOfBirth": "",
+    "url": "",
+    "imageUrl": "..\\team\\src\\asset\\images\\defaultUser.png"
+  },
+  {
+    "name": "Robert Sena Santos",
+    "position": "Analista de Sistemas",
+    "sigla": "robertsena",
+    "description": "",
+    "dateOfBirth": "",
+    "url": "",
+    "imageUrl": "..\\team\\src\\asset\\images\\defaultUser.png"
   }
 ]
