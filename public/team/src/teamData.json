@@ -3,7 +3,7 @@
     "name": "Kauã Vitório da Silva Lima",
     "position": "CEO GLOBAL",
     "sigla": "kaualima",
-    "description": "Hey! My name is Kauã Vitório da Silva Lima, I am {age} years old and I am CEO, founder and mobile | back-end developer at Uspery, I graduated in Systems Development at ETEC.<br/>I am currently majoring in Computer Science.<br/><br/>My skills are C#, Java, JavaScript, Node JS, HTML5 and CSS3",
+    "description": "Hey! My name is Kauã Vitorio Da Silva Lima, and I am a {age} years old technology enthusiast. I've been working as a backend developer for over 3 years, which has allowed me to dive deep into creating and optimizing systems and applications. Currently, I am pursuing a degree in Computer Science, aiming to expand my knowledge and enhance my skills.<br/><br/>One of my greatest achievements so far has been founding Uspery, where I serve as the Global CEO. Through this experience, I have the incredible opportunity to lead a talented and dedicated team as we work together to provide technological solutions for individuals and businesses in need of tech-related assistance. Our goal at Uspery is to simplify and cater to the technological needs of our clients, delivering innovation and efficiency.",
     "dateOfBirth": "2004-05-31",
     "url": "https://kauavitorio.com/",
     "imageUrl": "..\\team\\src\\asset\\images\\KauaLima.jpg"
@@ -27,11 +27,20 @@
     "imageUrl": "..\\team\\src\\asset\\images\\MatheusSouza.jpg"
   },
   {
+    "name": "Pedro Henrique Morato",
+    "position": "CEO | GQ | ADM",
+    "sigla": "pedromorato",
+    "description": "My name is Pedro Henrique, I'm {age} years old, I'm CEO | GQ | ADM and Systems Analyst at Uspery. I'm graduated in Systems Development from ETEC.",
+    "dateOfBirth": "2003-09-29",
+    "url": "https://www.instagram.com/pedrohmmf03/",
+    "imageUrl": "..\\team\\src\\asset\\images\\defaultUser.png"
+  },
+  {
     "name": "Felipe Paixão Macedo",
     "position": "CIO",
     "sigla": "felipepaixao",
-    "description": "",
-    "dateOfBirth": "",
+    "description": "Hello everyone! My name is Felipe Paixão Macedo, I'm {age} years old, I'm a CIO at Uspery, graduated in mechatronics at FITO, and I'm currently studying computer science at São Judas University",
+    "dateOfBirth": "2003-02-17",
     "url": "https://www.linkedin.com/in/felipe-paix%C3%A3o-macedo-0246a921a/",
     "imageUrl": "..\\team\\src\\asset\\images\\FelipePaixao.jpg"
   },
@@ -78,6 +87,6 @@
     "description": "",
     "dateOfBirth": "",
     "url": "",
-    "imageUrl": "..\\team\\src\\asset\\images\\defaultUser.png"
+    "imageUrl": "..\\team\\src\\asset\\images\\RobertSena.jpg"
   }
 ]
