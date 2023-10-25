@@ -1,7 +1,7 @@
 [
   {
     "name": "Kauã Vitório da Silva Lima",
-    "position": "CEO GLOBAL",
+    "position": "Founder",
     "sigla": "kaualima",
     "description": "Hey! My name is Kauã Vitorio Da Silva Lima, and I am a {age} years old technology enthusiast. I've been working as a backend developer for over 3 years, which has allowed me to dive deep into creating and optimizing systems and applications. Currently, I am pursuing a degree in Computer Science, aiming to expand my knowledge and enhance my skills.<br/><br/>One of my greatest achievements so far has been founding Uspery, where I serve as the Global CEO. Through this experience, I have the incredible opportunity to lead a talented and dedicated team as we work together to provide technological solutions for individuals and businesses in need of tech-related assistance. Our goal at Uspery is to simplify and cater to the technological needs of our clients, delivering innovation and efficiency.",
     "dateOfBirth": "2004-05-31",
@@ -19,7 +19,7 @@
   },
   {
     "name": "Matheus Souza Santos Leite",
-    "position": "CEO | Diretor de Desenvolvimento",
+    "position": "CEO | Development Director",
     "sigla": "matheussouza",
     "description": "Hi! My name is Matheus Souza, I'm {age} years old and I'm CEO and front-end developer at Uspery, I'm graduated in Systems Development from ETEC. My skills are HTML5, CSS3, JavaScript and UI Design",
     "dateOfBirth": "2003-09-29",
