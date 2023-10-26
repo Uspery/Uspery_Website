@@ -1,5 +1,3 @@
-# README - Repositório da Página HTML da Minha Empresa
-
 Código-fonte da página web principal Uspery. Esta página serve como a presença online, exibindo informações relevantes sobre nós, nossos produtos, serviços e contato. Este README fornece informações importantes sobre o projeto, bem como instruções para configurar e executar a página em um ambiente local, se necessário.
 
 ## Conteúdo do Repositório
