@@ -1,7 +1,9 @@
 :root {
     --pure-black: #000000;
-    --black: #333;
+    --headerHover: #ff793b;
+    --background: #ffffff;
     --white: #fff;
+    --soft-text-black: #1b1b1b;
     --soft-white: #e8e8e8be;
     --black-card: #212121;
     --orange: #FF6C26;

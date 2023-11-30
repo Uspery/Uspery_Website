@@ -85,7 +85,7 @@
   }
   
   .name {
-    color: var(--gray-light);
+    color: var(--soft-text-black);
     font-size: 18px;
     font-weight: 800;
     line-height: 24px;
