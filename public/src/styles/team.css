@@ -129,6 +129,7 @@
     margin-bottom: 0px;
     margin-left: auto;
     max-width: 300px;
+    border-radius: 10px;
   }
   
   .card-container {
