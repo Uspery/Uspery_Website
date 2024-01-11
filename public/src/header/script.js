@@ -44,16 +44,16 @@ function getInstance(){
 function DefineLocBackground(){
     var path = replacePublic(document.referrer);
     if(privacy_EN.includes(path))
-        privacy_btn.style.backgroundColor = "var(--black)"
+        privacy_btn.style.backgroundColor = "var(--headerHover)"
 
     else if(about_EN.includes(path))
-        about_btn.style.backgroundColor = "var(--black)"
+        about_btn.style.backgroundColor = "var(--headerHover)"
         
     else if(contact_EN.includes(path)) 
-        contact_btn.style.backgroundColor = "var(--black)"
+        contact_btn.style.backgroundColor = "var(--headerHover)"
         
     else if(team_EN.includes(path)) 
-        team_btn.style.backgroundColor = "var(--black)"
+        team_btn.style.backgroundColor = "var(--headerHover)"
 }
 
 function replacePublic(url){

@@ -29,7 +29,7 @@ ul {
 }
 
 .text-nav {
-    color: var(--white);
+    color: var(--soft-text-black);
     font: 400 1.2rem Roboto, sans-serif;
     text-decoration: none;
     padding: 3rem 3rem 3rem 3rem;
@@ -38,7 +38,7 @@ ul {
 }
 
 .text-nav:hover {
-    background-color: var(--black);
+    background-color: var(--background);
     cursor: pointer;
 }
 
