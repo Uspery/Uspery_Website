@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <meta name="title" content="Uspery | Company Info">
+    <meta name="description" content="A service provider organization so that it can help you in everyday.">
+
+    <meta property="og:url" content="https://uspery.com/">
+    <meta property="og:image" content="https://uspery.com/src/assets/icons/social_app_logo.png">
+	
+	<title>Uspery | Assinatura Uspery</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=0, maximum-scale=1">
+
+	<link type="text/css" rel="stylesheet" href="../src/styles/colors.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+</head>
+
+<style>
+	body{
+		color: var(--blue-dark);
+		background-color: #ededed;
+	}
+	
+	#assinatura{
+		margin: 0px auto;
+		width: 700px;
+		height: 173px;
+		background-repeat: no-repeat;
+		position: relative;
+		margin: 20px auto;
+		background-color: #fff;
+		overflow: hidden;
+		background-size: 700px;
+	
+	}
+	
+	.texto{
+		padding: 15px 10px 10px 30px;
+	}
+	
+	h1.nome{
+		font-size: 24px;
+		line-height: 28px;
+		margin: 0px;
+		padding: 0px;
+		height: 28px;
+		overflow: hidden;
+	}
+	
+	p.cargo{
+		font-size: 14px;
+		line-height: 18px;
+		height: 18px;
+		
+	}
+	
+	p{
+		font-size: 11px;
+		line-height: 15px;
+		padding: 0px;
+		margin: 3px 0 0 0;
+	}
+	
+	p.email{width: 360px;}
+	
+	.mt10{
+		margin-top: 10px;
+	}
+	
+	.lado1,
+	.lado2{
+		float: left;
+		width: 50%;
+	}
+	
+	.ml10{
+		margin-left: 10px;
+	}
+	
+	.mt30{
+		margin-top: 27px;
+	}
+	
+	button{
+        cursor: pointer;
+		padding: 10px;
+		border-radius: 10px;
+		margin: 10px;
+		background-color: #fff;
+        outline: none;
+        transition: 1s ease-in-out;
+	}
+    .container {
+        display: flex;
+    }
+
+    .container_logo {
+		width: 210px;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+    }
+
+    .logo {
+		width: 60%;
+    }
+	
+</style>
+
+<body">
+	<center>
+
+	<h1>Assinatura Uspery</h1>	
+
+	</center>
+
+	<div id="assinatura" class="padrao"">
+	
+		<div class="container">
+
+			<div class="container_logo"><img class="logo" src="../src/assets/img/LogoWithName.png" alt="Uspery logo"></div>
+
+			<div class="texto">
+				<h1 contenteditable="true" class="nome">Digite seu nome</h1>
+				<p contenteditable="true" class="cargo">Cargo</p>
+				<p contenteditable="true" class="cargo">Área</p>
+				<div class="lado1">
+					<p contenteditable="true" class="mt10">Cel: +5511 00000-0000</p>
+					<p contenteditable="true" class="email">email@uspery.com</p>
+				</div>
+				<div class="lado2">
+					<p class="mt30">Uspery Company</p>
+					<p class="">uspery.com</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<p align="center"><button onclick="downloadimage()" class="etapbt">Salvar como imagem</button></p>
+
+	<script type="text/javascript">
+	
+	function downloadimage() {
+		var container = document.getElementById("assinatura");
+		html2canvas(container, {
+			onrendered: function (canvas) {
+				var link = document.createElement("a");
+				document.body.appendChild(link);
+				link.download = "assinatura.png";
+				link.href = canvas.toDataURL("image/png");
+				link.target = '_blank';
+				link.click();
+			}
+		});
+	}
+	
+	</script>
+</body>
+</html>
